@@ -1,0 +1,58 @@
+= Objectclass property for vCard
+:doctype: internet-draft
+:name: draft-vcard-objectclass-01
+:doctype: standard
+:ipr: trust200902
+:area: Applications
+:intended-series: full-standard
+:workgroup: Network Working Group
+:published-date: 2013-01-01
+:fullname: Ciny Joy
+:lastname: Joy
+:forename_initials: C.
+:affiliation: Oracle Corporation
+:address: 4210 Network Circle + \
+Santa Clara, CA 95054 + \
+United States of America
+:email: ciny.joy@oracle.com
+:contributor-uri: http://www.oracle.com/
+:fullname_2: Cyrus Daboo
+:lastname_2: Daboo
+:forename_initials_2: C.
+:affiliation_2: Apple Inc.
+:address_2: 1 Infinite Loop + \
+Cupertino, CA 95014 + \
+United States of America
+:email_2: cyrus@daboo.name
+:contributor-uri_2: http://www.apple.com/
+:fullname_3: Michael Douglass
+:lastname_3: Douglass
+:forename_initials_3: M.
+:affiliation_3: Spherical Cow Group
+:address_3: 226 3rd Street + \
+Troy, NY 12180 + \
+United States of America
+:email_3: mdouglass@sphericalcowgroup.com
+:contributor-uri_3: http://sphericalcowgroup.com
+:mn-document-class: ietf
+:mn-output-extensions: xml,rfc,txt,html,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-abstract.adoc[]
+
+include::sections/01-intro.adoc[]
+
+include::sections-ietf/02-conventions.adoc[]
+
+include::sections/03-objectclass.adoc[]
+
+include::sections/04-examples.adoc[]
+
+include::sections/05-security-considerations.adoc[]
+
+include::sections/06-iana-considerations.adoc[]
+
+include::sections/99-acknowledgments.adoc[]
+
+include::sections-ietf/99-references.adoc[]

@@ -1,0 +1,5 @@
+[abstract]
+== Abstract
+
+This specification describes a new property for vCard Format Specification <<RFC6350>> to allow the
+specification of objectclasses.

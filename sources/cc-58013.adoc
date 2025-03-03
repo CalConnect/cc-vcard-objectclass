@@ -1,0 +1,46 @@
+= Objectclass property for vCard
+:docnumber: 58013
+:copyright-year: 2013
+:language: en
+:doctype: standard
+:edition: 1
+:status: working-draft
+:revdate: 2013-01-01
+:published-date: 2013-01-01
+:technical-committee: VCARD
+:fullname: Ciny Joy
+:surname: Joy
+:givenname: Ciny
+:affiliation: Oracle Corporation
+:fullname_2: Cyrus Daboo
+:surname_2: Daboo
+:givenname_2: Cyrus
+:affiliation_2: Apple Inc.
+:fullname_3: Michael Douglass
+:surname_3: Douglass
+:givenname_3: Michael
+:affiliation_3: Spherical Cow Group
+:mn-document-class: cc
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+include::sections/00-abstract.adoc[]
+
+include::sections/01-intro.adoc[]
+
+include::sections/01-scope.adoc[]
+
+include::sections/02-normative-references.adoc[]
+
+include::sections/03-terms.adoc[]
+
+include::sections/03-objectclass.adoc[]
+
+include::sections/04-examples.adoc[]
+
+include::sections/05-security-considerations.adoc[]
+
+include::sections/06-iana-considerations.adoc[]
+
+include::sections/99-acknowledgments.adoc[]

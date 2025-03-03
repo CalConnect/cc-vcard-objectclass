@@ -1,6 +1,6 @@
-= CalConnect Standard: (TITLE)
+= CalConnect Standard: Objectclass property for vCard
 
-This work item belongs to CalConnect (TCs).
+This work item belongs to CalConnect TC VCARD.
 
 image:https://github.com/CalConnect/cc-vcard-objectclass/workflows/generate/badge.svg["Build Status", link="https://github.com/CalConnect/cc-vcard-objectclass/actions?workflow=generate"]
 
@@ -10,13 +10,12 @@ This document is available in its rendered forms here:
 
 == General
 
-This document specifies the (TITLE).
+This document specifies the Objectclass property for vCard.
 
 The document is published as the following:
 
-* CalConnect CC (DOCNUMBER)
-* ISO (DOCNUMBER)
-* IETF draft-cc-vcard-objectclass
+* CalConnect CC 58013
+* IETF draft-vcard-objectclass-01
 
 
 == Fetching the document
