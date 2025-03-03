@@ -1,0 +1,4 @@
+== Security Considerations
+
+As this document only defines a schema related property and does not refer to the actual storage
+mechanism itself, no special security considerations are required as part of this document.

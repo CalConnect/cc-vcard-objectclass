@@ -1,0 +1,6 @@
+== IANA Considerations
+
+=== New VCard Objectclass Value Registration
+
+New objectclass values will be defined according to the process specified in
+<<RFC6350,section=10.2.6>>.

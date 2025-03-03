@@ -1,0 +1,5 @@
+[acknowledgments]
+== Acknowledgments
+
+This specification is a result of discussions that took place within the Calendaring and Scheduling
+Consortium's Resource Technical Committee. The authors thank the participants of that group.
