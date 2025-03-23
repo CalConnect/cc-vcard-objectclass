@@ -1,16 +1,18 @@
 == Examples
 
-These examples do not draw on any currently defined objectclass but are intended to indicate some uses.
-Properties used here may not be defined in any specification.
+These examples do not draw on any currently defined objectclass but are intended
+to indicate some uses. Properties used here may not be defined in any
+specification.
 
 === Eduperson vcard
 
-The eduperson ldap objectclass provides for a number of attributes considered useful for interaction between
-members of educational organizations. A corresponding vcard objectclass would allow for better mappping of
-ldap directories onto a vcard representation.
+The eduperson ldap objectclass provides for a number of attributes considered
+useful for interaction between members of educational organizations. A
+corresponding vcard objectclass would allow for better mappping of ldap
+directories onto a vcard representation.
 
-The 201203 specification of the LDAP objectclass for reference. Note that all attributes are `MAY` so would
-have a vcard cardinality of *1 or *.
+The 201203 specification of the LDAP objectclass for reference. Note that all
+attributes are `MAY` so would have a vcard cardinality of *1 or *.
 
 [source%unnumbered]
 ----
@@ -30,8 +32,8 @@ have a vcard cardinality of *1 or *.
         eduPersonAssurance)
 ----
 
-A vcard mapping would, where possible use existing vcard properties. Where not possible new properties
-could be defined.
+A vcard mapping would, where possible use existing vcard properties. Where not
+possible new properties could be defined.
 
 [source%unnumbered]
 ----
@@ -52,11 +54,12 @@ END:VCARD
 
 === Schedulable
 
-A schedulable entity can be scheduled for meetings (as a person) or for use (as a resource). For a
-scheduling system to be able to usefully manage the schedule it needs specific information.
+A schedulable entity can be scheduled for meetings (as a person) or for use (as
+a resource). For a scheduling system to be able to usefully manage the schedule
+it needs specific information.
 
-At the very least there needs to be some form of calendar user address. It's useful to know whether requests
-can be auto accepted if the slot is available.
+At the very least there needs to be some form of calendar user address. It's
+useful to know whether requests can be auto accepted if the slot is available.
 
 Building on the previous example we'll make Jack schedulable.
 

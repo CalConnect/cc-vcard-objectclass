@@ -35,6 +35,8 @@ include::sections/02-normative-references.adoc[]
 
 include::sections/03-terms.adoc[]
 
+include::sections/03-conventions.adoc[]
+
 include::sections/03-objectclass.adoc[]
 
 include::sections/04-examples.adoc[]
