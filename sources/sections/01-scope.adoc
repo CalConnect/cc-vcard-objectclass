@@ -1,5 +1,4 @@
 == Scope
 
-//This document specifies a new property for vCard Format Specification to allow the specification
-//of objectclasses. It defines the OBJECTCLASS property for vCard, including its format,
-//cardinality, and usage.
+This specification describes a new property for vCard Format Specification
+<<RFC6350>> to allow the specification of objectclasses.

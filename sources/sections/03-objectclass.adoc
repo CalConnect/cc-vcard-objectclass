@@ -4,9 +4,13 @@ Format and cardinality of new vCard properties are defined as described in
 <<RFC6350,section=3.3>>.
 
 Property name:: `OBJECTCLASS`
+
 Purpose:: To specify the objectclass for this vcard.
+
 ValueType:: IANA value.
+
 Cardinality:: *
+
 ABNF::
 +
 --
@@ -16,8 +20,11 @@ OBJECTCLASS-param = any-param
 OBJECTCLASS-value = text
 ----
 --
+
 Default value:: None.
+
 Example value:: schedulable
-Description:: This property `MAY` be present 1 or more times. For each occurrence of the
-property the vcard `MUST`
-conform to the specification for that objectclass.
+
+Description:: This property `MAY` be present 1 or more times. For each
+occurrence of the property the vcard `MUST` conform to the specification for
+that objectclass.

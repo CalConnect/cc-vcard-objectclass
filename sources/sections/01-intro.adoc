@@ -1,24 +1,30 @@
 == Introduction
 
-The objectclass concept is used in ldap to allow the specification of a set of properties which describe a
-given type of object. For example, a schedulable entity `SHOULD` contain some form of contact and the
-absence of the `AUTOSCHEDULE` property implies certain defaults.
+The objectclass concept is used in ldap to allow the specification of a set of
+properties which describe a given type of object. For example, a schedulable
+entity `SHOULD` contain some form of contact and the absence of the
+`AUTOSCHEDULE` property implies certain defaults.
 
-Furthermore the `OBJECTCLASS` property allows for simple searching for a particular class of entry. If we are
-trying to book a room for example, the query only needs to specify an `OBJECTCLASS` of schedulable and
-the type of entry (that is, a room).
+Furthermore the `OBJECTCLASS` property allows for simple searching for a
+particular class of entry. If we are trying to book a room for example, the
+query only needs to specify an `OBJECTCLASS` of schedulable and the type of
+entry (that is, a room).
 
-Without the `OBJECTCLASS` property it may be hard to determine that a room is actually schedulable. The
-resence of an email address does not guarantee that an entity is schedulable. Current scheduling systems
-also work asynchronously. The user may create scheduling invitations only to learn later on that the
-scheduled entity is not going to reply.
+Without the `OBJECTCLASS` property it may be hard to determine that a room is
+actually schedulable. The resence of an email address does not guarantee that an
+entity is schedulable. Current scheduling systems also work asynchronously. The
+user may create scheduling invitations only to learn later on that the scheduled
+entity is not going to reply.
 
-An ldap objectclass may be of 3 kinds, structural, abstract and auxiliary. The vcard `KIND` property is
-equivalent to the structural objectclass in that a vcard can be of only one kind. The kind requires that certain
-properties be present and also defines defaults for absent properties.
+An ldap objectclass may be of 3 kinds, structural, abstract and auxiliary. The
+vcard `KIND` property is equivalent to the structural objectclass in that a
+vcard can be of only one kind. The kind requires that certain properties be
+present and also defines defaults for absent properties.
 
-The `OBJECTCLASS` property defined here is equivalent in many ways to the auxiliary objectclass in ldap.
-They are not related to each other in some hierarchy and may overlap in their use of properties.
+The `OBJECTCLASS` property defined here is equivalent in many ways to the
+auxiliary objectclass in ldap. They are not related to each other in some
+hierarchy and may overlap in their use of properties.
 
-Objectclass definitions can only specify properties which `MUST`, `SHOULD` or `MAY` be present. They cannot
-disallow the use of properties as these may be required by another objectclass.
+Objectclass definitions can only specify properties which `MUST`, `SHOULD` or
+`MAY` be present. They cannot disallow the use of properties as these may be
+required by another objectclass.
