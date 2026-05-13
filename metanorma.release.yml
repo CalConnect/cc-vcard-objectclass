@@ -1,3 +1,5 @@
+# metanorma.release.yml — cc-vcard-objectclass
+
 documents:
-  - source: sources/cc-58013.adoc
-  - source: sources/draft-vcard-objectclass-01.adoc
+  - pattern: "cc-*"
+    channels: [public/standards]
