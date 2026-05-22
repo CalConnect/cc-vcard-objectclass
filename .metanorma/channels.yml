@@ -1,5 +1,0 @@
-# .metanorma/channels.yml — cc-vcard-objectclass
-
-channels:
-  - name: public/standards
-    description: "CalConnect documents from cc-vcard-objectclass"
